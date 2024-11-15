@@ -3,8 +3,8 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-        <title>Web Template</title>
+        <link rel="stylesheet" href="style.css">
+        <title>Calcolatrice</title>
     </head>
     <body>
         <noscript>
@@ -13,7 +13,15 @@
                 Please enable it to continue.
             </strong>
         </noscript>
-        <div id="app"></div>
+        <div>
+            <input id="number1" />
+            <input id="number2" />
+            <button id="somm">Somma</button>
+            <button id="molt">Moltiplica</button>
+            <button id="divi">Dividi</button>
+            <button id="diff">Sottrai</button>
+            <h1 id="result"></h1>
+        </div>
         <script type="module" src="/src/main.ts"></script>
     </body>
 </html>
